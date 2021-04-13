@@ -1,0 +1,19 @@
+.header-container {
+    height:750px;
+    width:100%;
+    position:relative;
+    background-image: url(../../../images/chair-bulr.png);
+    background-size:70%;
+    background-repeat:no-repeat;
+    
+}
+.header-container::after {
+    height:750px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width:27%;
+    right: 0;
+    background-color:#3A4256;
+    z-index:-50;
+}
