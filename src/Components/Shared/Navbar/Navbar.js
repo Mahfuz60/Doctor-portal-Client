@@ -4,7 +4,13 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
-        <a style={{fontWeight:'700',fontSize:'35px'}} class="navbar-brand" href="#">Doctor Portal</a>
+        <a
+          style={{ fontWeight: "700", fontSize: "35px" }}
+          class="navbar-brand"
+          href="#"
+        >
+          Doctor Portal
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,21 +30,46 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link ms-5 text-dark" href="#">About</a>
+              <a class="nav-link ms-5 text-dark" href="#">
+                About
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-dark" href="#"> Dental Services</a>
+              <a class="nav-link ms-5 text-dark" href="#">
+                {" "}
+                Dental Services
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#"> Reviews</a>
+              <a class="nav-link ms-5 text-dark" href="#">
+                {" "}
+                Admin
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#">Blogs</a>
+              <a class="nav-link ms-5 text-dark" href="#">
+                {" "}
+                Dashboard
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#">Contact Us</a>
+              <a class="nav-link ms-5 text-white" href="#">
+                {" "}
+                Reviews
+              </a>
             </li>
-           
+            
+            
+            <li class="nav-item">
+              <a class="nav-link ms-5 text-white" href="#">
+                Blogs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5 text-white" href="#">
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
       </div>
